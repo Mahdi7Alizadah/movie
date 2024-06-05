@@ -1,0 +1,42 @@
+{
+    "POST /movies": {
+      "Request Body": {
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "releaseYear": 2010,
+        "genre": "Science Fiction"
+      }
+    },
+    "GET /movies": {},
+    "GET /movies/:id": {},
+    "PUT /movies/:id": {},
+    "DELETE /movies/:id": {},
+    "GET /movies/:id/reviews": {},
+    "POST /reviews": {
+      "Request Body": {
+        "movieId": "<movieId>",
+        "userId": "<userId>",
+        "rating": 5,
+        "comment": "Great movie!"
+      }
+    },
+    "GET /reviews": {},
+    "GET /reviews/:id": {},
+    "PUT /reviews/:id": {},
+    "DELETE /reviews/:id": {},
+    "POST /register": {
+      "Request Body": {
+        "username": "exampleUser",
+        "email": "user@example.com",
+        "password": "password",
+        "role": "user"
+      }
+    },
+    "POST /login": {
+      "Request Body": {
+        "email": "user@example.com",
+        "password": "password"
+      }
+    }
+  }
+  
